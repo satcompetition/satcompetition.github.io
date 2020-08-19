@@ -1,0 +1,216 @@
+body {
+	font-family: arial, helvetica, geneva, sans-serif;
+	font-size: small;
+}
+
+a {
+	font-weight: bold;
+	# text-decoration: none;
+	color: #5B69CC;
+}
+
+a:hover {
+	font-weight: bold;
+	# text-decoration: underline;
+	color: #FF5B5B;
+}
+
+h1 {
+	font-size: x-large;
+	text-align: center;
+	color: #5B69CC;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+}
+
+pre,tt {
+	font-size: small
+}
+
+th {
+	font-family: arial, helvetica, geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #000000;
+}
+
+td {
+	font-family: arial, helvetica, geneva, sans-serif;
+	font-size: small
+}
+
+td.topline {
+	font-size: 1px
+}
+
+td.tab {
+	border-top: 1px solid #999;
+	border-right: 1px solid #666;
+	border-left: 1px solid #999;
+	border-bottom: none;
+	border-radius: 2px;
+}
+
+table.tabs {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #666;
+}
+
+.odd {
+	background: #DDD;
+	color: black;
+	text-align: center;
+}
+
+.even {
+	background: #EEE;
+	color: black;
+	text-align: center;
+}
+
+.pbm {
+	background: tomato;
+	color: white;
+	text-align: center;
+}
+
+.beware {
+	background: gold;
+	color: black;
+	text-align: center;
+}
+
+.segfault {
+	background: coral;
+	color: black;
+	text-align: center;
+}
+
+.easy {
+	background: lightgreen;
+	color: black;
+	text-align: center;
+}
+.medium {
+	background: gold;
+	color: black;
+	text-align: center;
+}
+.hard {
+	background: tomato;
+	color: black;
+	text-align: center;
+}
+.sotac {
+	background: skyblue;
+	color: black;
+	text-align: center;
+}
+.done {
+	background: yellowgreen;
+	color: black;
+	text-align: left;
+}
+
+/*
+.done a:visited {
+	color: white;
+}
+.done a:link {
+	color: white;
+}
+.done a:hover {
+	color: white;
+}
+*/
+.todo {
+	background: gold;
+	color: black;
+	text-align: right;
+}
+.solved {
+	background: yellowgreen;
+	color: black;
+	text-align: right;
+}
+.myleft {
+	text-align: right;
+}
+.unsolved {
+	background: tomato;
+	color: white;
+	text-align: right;
+}
+
+.gold {
+	background: gold;
+	color: black;
+	text-align: center;
+}
+
+.silver {
+	background: silver;
+	color: black;
+	text-align: center;
+}
+
+.bronze {
+	background: #8C7853;
+	color: white;
+	text-align: center;
+}
+
+.topheader {
+ text-align:center;
+ font-weight: bold;
+ color:white;
+ font-size: larger;
+}
+
+.topheader a {
+  color : black;
+}
+
+.sideheader {
+ color:black;
+ width:20%
+}
+
+.content {
+  background-color:white;
+}
+
+.latable {
+  background-color:lightgreen;
+}
+
+.restable {
+  background-color:lightblue;
+}
+
+.track1 {
+  background-color:steelblue;
+}
+
+.track2 {
+  background-color:lightblue;
+}
+
+.ressideheader {
+ color:black;
+ width:20%
+}
+
+.rescontent {
+ background-color:white;
+ text-align:center;
+}
+
+.padded {
+  padding: 2px;
+};
